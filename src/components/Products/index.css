@@ -1,0 +1,43 @@
+.Loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+.filters-container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.items-no {
+  font-family: "Simplon Norm";
+  font-size: 18px;
+  font-weight: 700;
+  color: #252020;
+  margin-left: 50px;
+  margin-right: 40px;
+}
+.filter-text {
+  font-family: "Adobe Caslon Pro";
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: underline;
+  color: #888792;
+  margin-left: 10px;
+}
+.list-container {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 750px) {
+  .items-no {
+    font-size: 14px;
+  }
+  .filter-text {
+    font-size: 13px;
+  }
+}

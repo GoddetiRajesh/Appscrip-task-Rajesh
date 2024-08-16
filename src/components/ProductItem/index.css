@@ -1,0 +1,55 @@
+.item-container {
+  width: 25%;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  padding: 20px;
+}
+.item-image {
+  width: 100%;
+  height: 280px;
+}
+.title {
+  font-family: "Simplon Norm";
+  font-size: 18px;
+  font-weight: 700;
+  color: #252020;
+  height: 60px;
+}
+.details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price {
+  font-family: "Simplon Norm";
+  font-size: 18px;
+  color: #888792;
+}
+.favourite-icon {
+  height: 30px;
+  width: 30px;
+}
+.icon-button {
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+.red-bg {
+  color: red;
+}
+
+@media (max-width: 850px) {
+  .item-container {
+    width: 35%;
+  }
+}
+
+@media (max-width: 500px) {
+  .item-container {
+    width: 70%;
+  }
+}
